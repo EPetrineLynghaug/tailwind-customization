@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Showcase</title>
+    <script src="toggle.js" defer></script>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-softWhite dark:bg-darkCharcoal text-darkCharcoal dark:text-softWhite font-sans"
+  >
+    <!-- Header -->
+    <header
+      class="flex items-center justify-between p-4 bg-primaryTeal dark:bg-tealDark"
+    >
+      <div class="text-2xl font-bold font-serif text-softWhite">Logo</div>
+      <button id="theme-toggle" class="text-softWhite">Toggle Theme</button>
+      <nav class="space-x-4">
+        <a href="#" class="text-softWhite hover:text-tealLight">Home</a>
+        <a href="#" class="text-softWhite hover:text-tealLight">About</a>
+        <a href="#" class="text-softWhite hover:text-tealLight">Products</a>
+        <a href="#" class="text-softWhite hover:text-tealLight">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative bg-primaryTeal dark:bg-tealDark h-80 flex items-center justify-center text-center"
+    >
+      <div
+        class="absolute inset-0 bg-tealDark opacity-50 dark:bg-primaryTeal dark:opacity-60"
+      ></div>
+      <div class="relative z-10">
+        <h1 class="text-4xl font-bold font-serif text-softWhite">
+          Welcome to Our Product Showcase
+        </h1>
+        <p class="mt-4 text-softWhite">
+          Discover our exclusive range of products
+        </p>
+        <button
+          class="mt-6 px-6 py-2 bg-complementaryCoral dark:bg-coralDark text-softWhite rounded"
+        >
+          Shop Now
+        </button>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-softWhite dark:bg-warmGray-dark p-4 rounded shadow">
+        <h2 class="text-lg font-bold font-serif">Product 1</h2>
+        <p class="text-primaryTeal dark:text-primaryTeal-dark mt-2">
+          Product description here.
+        </p>
+        <button
+          class="mt-4 px-4 py-2 bg-complementaryCoral dark:bg-complementaryCoral-dark text-softWhite rounded"
+        >
+          View Details
+        </button>
+      </div>
+      <!-- Repeat similar blocks for more products -->
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="p-4 bg-primaryTeal dark:bg-tealDark text-softWhite text-center font-serif"
+    >
+      &copy; 2024 Your Company. All rights reserved.
+    </footer>
+  </body>
+</html>
