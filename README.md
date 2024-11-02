@@ -131,8 +131,7 @@ To enhance typography, we have included Roboto Slab as a serif font instead of a
 
 Conclusion
 
-This project serves as a starting point for building responsive web applications with Tailwind CSS. We encourage further development and enhancements!
-
+This project serves as a starting point for building responsive web applications with Tailwind CSS. 
 
 
 
